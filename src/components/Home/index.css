@@ -1,0 +1,126 @@
+.home-container {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+h1{
+    color: #ed0739;
+    font-family: 'Playfair Display', serif;
+
+    font-weight: bold;
+}
+
+.popup-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.plus-container{
+    background-color: lightblue;
+    height: 65px;
+    width: 65px;
+    border-radius: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.close-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.close-button:hover {
+    background-color: #c0392b;
+}
+
+.sort-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.sort-button .icon {
+    margin-right: 8px;
+}
+
+.profiles-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #2980b9;
+}
+ 
+.pagination .page-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+.pagination .page-button.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.pagination .page-button:hover {
+    background-color: #ddd;
+}
+.create-new-user-button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
